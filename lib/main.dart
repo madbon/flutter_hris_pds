@@ -33,7 +33,7 @@ class _RootPageState extends State<RootPage> {
             style: TextStyle(fontSize: 15)),
       ),
       body: const Center(
-        child: Text('Landing Page'),
+        child: Text('maLanding Page'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -180,6 +180,12 @@ class _RootPageState extends State<RootPage> {
                   },
                 ),
               ],
+            ),
+            ListTile(
+              title: const Text('LEAVE APPLICATION'),
+              onTap: () {
+                Navigator.pop(context);
+              },
             ),
           ],
         ),
