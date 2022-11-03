@@ -33,7 +33,7 @@ class _RootPageState extends State<RootPage> {
             style: TextStyle(fontSize: 15)),
       ),
       body: const Center(
-        child: Text('maLanding Page'),
+        child: Text('Landing Page'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -126,30 +126,41 @@ class _RootPageState extends State<RootPage> {
               children: [
                 ListTile(
                   title: const Text('I. Personal Information'),
+                  dense: true,
+                  visualDensity: const VisualDensity(
+                      vertical: -3), // (-)to compact (+) to expand
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('II. Family Background'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('III. Educational Background'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('IV. Civil Service Eligibility'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('V. Work Experience'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
@@ -157,24 +168,32 @@ class _RootPageState extends State<RootPage> {
                 ListTile(
                   title: const Text(
                       'VII. Learning & Development (L&D) Interventions/Trainings Program Attended'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('VII. Other Information'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('Reference Person'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
                 ),
                 ListTile(
                   title: const Text('Questionaires'),
+                  dense: true,
+                  visualDensity: const VisualDensity(vertical: -3),
                   onTap: () {
                     Navigator.pop(context);
                   },
